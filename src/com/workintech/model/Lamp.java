@@ -29,4 +29,13 @@ public class Lamp {
     public LampType getStyle() {
         return style;
     }
+
+    @Override
+    public String toString() {
+        return "Lamp{" +
+                "battery=" + battery +
+                ", globRating=" + globRating +
+                ", style=" + style +
+                '}';
+    }
 }

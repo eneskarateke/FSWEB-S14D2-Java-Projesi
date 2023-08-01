@@ -31,4 +31,13 @@ public class Carpet {
     public void lying(){
         System.out.println("Carpet is lying on Bedroom floor.");
     }
+
+    @Override
+    public String toString() {
+        return "Carpet{" +
+                "width=" + width +
+                ", height=" + height +
+                ", color=" + color +
+                '}';
+    }
 }

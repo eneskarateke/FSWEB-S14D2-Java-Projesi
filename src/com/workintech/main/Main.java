@@ -27,6 +27,8 @@ public class Main {
         System.out.println("Wardrobe yükseklik:(3) " + bedroom.getWardrobe().getHeight());
 
         System.out.println("Bed sheets:(2) " + bedroom.getBed().getSheets());
+        System.out.println("lamp) " + lamp);
+
 
 
     }
